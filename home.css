@@ -1,0 +1,266 @@
+.header{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    background-color: #333;
+}
+
+body{
+    background-image: url('Images/Black_gym_Taipa.jpeg');
+    margin: 0;
+
+}
+
+.footer{
+    display: flex;
+    background-color: rgb(95, 89, 89);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+}
+
+.container{
+    padding: 2em;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 800px;
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container_2{
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 800px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.content{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    background-color: #333;
+}
+
+.navbar{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    float: none;
+    display: none;
+    color: black;   
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;  
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+form a {
+    color: #fff;
+    text-decoration: none;
+}
+
+input {
+    padding:10px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 13px;
+}
+
+input::placeholder {
+    color:#fff;
+}
+
+input:focus {
+    outline: none;
+}
+
+.container_2 button{
+    background: #fff;
+    color: black;
+    padding: 10px;
+    border: none;
+    height: 80px;
+    width: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.container_2 button:hover {
+    background: transparent;
+    color: #fff;
+    outline: 1px solid #fff;
+}
+
+button {
+    background: #fff;
+    color: black;
+    padding: 10px;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+button:hover {
+    background: transparent;
+    color: #fff;
+    outline: 1px solid #fff;
+}
+
+.container_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.glass-container {
+    width: 300px;
+    height: 450px;
+    position: relative;
+    z-index: 1;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.glass-container::before {
+    content: '';
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+.login-box {
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 12px;
+    width:100%;
+    color: #ffffff;
+}
+.options input {
+    margin-left: 5px;
+    margin-top: 5px;
+    justify-content: left;
+}
+
+.options label {
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.options a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: auto;
+
+}
+.option-box{
+    max-width: 50%;
+}
+
+#register, #login {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
